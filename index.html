@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <title></title>
+      <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- CSS only -->
+
+    
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" media="all" href="css/font-awesome.css" />
+      <link rel="stylesheet" media="all" href="css/linear-icons.css" />
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+     
+    
+<head>
+  <nav class="navbar navbar-expand-lg" style="background-color: #03062f;">
+        <div class="container" style="padding-left: 30px; padding-right: 30px;">
+            <a href="#" class="navbar-brand"> <img src="images/Logo%20(1).png" alt="logo"> </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">Products</a>
+                    <a href="#" class="nav-item nav-link">Solutions</a>
+                    <a href="#" class="nav-item nav-link">Pricing</a>
+                    <a href="#" class="nav-item nav-link">Resources</a>
+                    <a href="#" class="nav-item nav-link">Company</a>
+                   
+                </div>
+                <div class="navbar-nav ms-auto">
+                  <div class="bttn" style="padding: 10px 15px;">
+                     <button type="button" class="btn btn-primary">Log In</button>
+                    <button type="button" class="btn btn-light">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+</head>
+    <body>
+           <section style="background-image: url(images/Vector%201.png);    padding-top: 60px; padding-bottom: 60px;">
+        <div class="container">
+      <div class="row">
+              <div class="col-sm-6">
+            <div class="bleft">
+            <h2>Lorem ipsum dolor <br>sit amet consectetur </h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <hr style="width: 80px; height: 15px; color: #58C19C;">
+            <button type="button" class="btn btn-primary">Sign Up Now</button>
+            </div>
+            </div>
+        <div class="col-sm-6">
+            <img src="images/hero%20image.png" class="img-fluid" alt="heroimage" style="float: right;">
+            </div>
+            </div>
+        </div>
+        </section>
+   <div class="container" style=";">
+      
+        
+<section style="background-image: url(images/Group%205.png); background-position: left; background-repeat: no-repeat; background-color: ; padding-bottom: 60px; margin-top: -8%;">
+        <div class="container">
+    <div class="row" style="padding-top: 80px;">
+            
+         
+        
+        <div class="col-sm-6">
+        
+        
+  <div class="row">
+  <div class="column">
+    <img src="images/image%2001.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+ 
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/image%2001.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/image%2002.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/image%2003.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/image%2004.png" style="width:100%">
+    </div> 
+      <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/image%2005.png" style="width:100%">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/image%2006.png" style="width:100%">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/image%2007.png" style="width:100%">
+    </div>
+        <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/image%2008.png" style="width:100%">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/image%2003.png" style="width:100%">
+    </div><div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/image%2003.png" style="width:100%">
+    </div>
+      
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="images/image%2001.png" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/image%2002.png" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/image%2003.png" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/image%2004.png" onclick="currentSlide(4)" alt="Lights">
+    </div><div class="column">
+      <img class="demo" src="images/image%2005.png" onclick="currentSlide(4)" alt="Lights">
+    </div><div class="column">
+      <img class="demo" src="images/image%2006.png" onclick="currentSlide(4)" alt="Lights">
+    </div><div class="column">
+      <img class="demo" src="images/image%2007.png" onclick="currentSlide(4)" alt="Lights">
+    </div><div class="column">
+      <img class="demo" src="images/image%2008.png" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+        
+        </div>
+                <div class="col-sm-6" style="padding-top: 120px;">
+                
+                
+      
+            <div class="col-sm-6"> <div class="rdescription" style="padding-top: 40%;">
+                <h2 style="color: #000;">Pharetra Convallis</h2>
+                <p>Euismod in pellentesque massa placerat duis ultricies lacus sed. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Commodo nulla facilisi nullam vehicula!</p>
+                <i class="fa-solid fa-star"></i>
+                <span>23 Reviews</span>
+                
+                <h6>Colour</h6>
+                <div class="row" style="padding: 10px 5px;">
+                 
+                <div class="col-sm-2" style="border: 2px solid #202324;box-sizing: border-box;border-radius: 6px; margin-right: 5px; width:130px"><div class="desc" style="background-color: #DE742D; width: 127px;margin-left: -12%;"><span style="color: #fff; font-size: 12px; padding-left: 10px; padding-right: 20px">New Color</span></div><h6>Nordvalla dark grey</h6></div>
+                      <div class="col-sm-2" style="border: 2px solid #202324;box-sizing: border-box;border-radius: 6px; margin-right: 5px; width:130px"><div class="desc" style="background-color: #A07EDC; width: 127px;margin-left: -12%;"><span style="color: #fff; font-size: 12px; padding-left: 10px; padding-right: 20px">Limited Release</span></div><h6>Beige</h6></div>
+                
+                <div class="col-sm-2" style="border: 1px solid #D8E0E2; box-sizing: border-box;border-radius: 6px; margin-right: 5px; width:130px"><h6 style="padding-top: 40px">Grey</h6></div>
+                <div class="col-sm-2" style="border: 1px solid #D8E0E2; box-sizing: border-box;border-radius: 6px; margin-right: 5px; width:130px"><h6 style="padding-top: 40px">Skiftebo yellow</h6></div>
+                </div>
+                  <div class="row"> <div class="col-sm-2" style="border: 1px solid #D8E0E2; box-sizing: border-box;border-radius: 6px; margin-right: 5px; width:130px"><h6 style="padding-top: 20px">Kelinge beige</h6></div>
+         <div class="col-sm-2" style="border: 1px solid #D8E0E2; box-sizing: border-box;border-radius: 6px; margin-right: 5px; width:130px"><h6 style="padding-top: 20px">Vibberbo black/beige</h6></div>
+            </div>
+                <div class="row">
+                 <h6>QUANTITY</h6>
+                    <div class="det">
+                    <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+  <label class="form-check-label" for="flexRadioDefault1">
+  <h5 style="font-size: 16px"> Buy once -  $39.99</h5>
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+  <label class="form-check-label" for="flexRadioDefault2">
+    <h5 style="font-size: 16px">Subscribe  & save 12.5% - $34.99</h5>
+  </label>
+</div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 40px;">
+                <div class="col-sm-12">
+                    <button type="button" class="btn btn-success">Add to cart</button>
+                 <div class="pdesc" style="padding-top: 60px;">   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+                    </div>
+                    <p style="font-size:12px;">Free delivery and a risk-free quality guarantee!</p>
+                </div>
+                </div></div>
+            </div>
+        </div>
+          
+    </div>
+            
+        </section>
+       
+       
+        </div>
+    </body>
+</html>
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
